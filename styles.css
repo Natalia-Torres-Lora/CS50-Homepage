@@ -8,7 +8,7 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(238, 232, 232);
     font-size: x-large;
-    background-color: rgb(51, 51, 54);
+    background-color: rgb(70, 59, 59);
 }
 
 .about_container {
@@ -40,15 +40,23 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    padding: 3rem;
-    margin: 3rem;;
+    
+    padding: 2rem;
+    margin: 2rem;;
 }
 
 .welcome_container p {
-    /* text-align: center; */
     color: #fff;
     font-size: 2rem;
+}
+.contact_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_container div{
+    padding: 1rem;
+    margin: 1rem;
 }
 
 footer {
